@@ -8,5 +8,14 @@ section {
 .animalItems {
     background-color: rgba(0, 0, 139, 0.354);
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0 0 2rem black;
+    transition: 0.2s;
 }
 
+.animalItems:hover {
+    scale: 1.1;
+}

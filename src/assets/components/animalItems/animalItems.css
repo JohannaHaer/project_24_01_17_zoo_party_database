@@ -1,6 +1,11 @@
 .funfacts {
     background-color: rgba(0, 0, 0, 0.46);
     padding: 1rem;
+    border-radius: 5px;
+}
+
+.funfactsUl {
+    text-align: start;
 }
 
 .emoji {
@@ -8,5 +13,6 @@
 }
 
 h2 {
-    color: darkred;
+    color: lightcoral;
+    font-size: 2rem;
 }
