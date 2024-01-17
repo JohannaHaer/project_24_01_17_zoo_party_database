@@ -1,0 +1,12 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7rem;
+    margin: 5rem;
+}
+
+.animalItems {
+    background-color: rgba(0, 0, 139, 0.354);
+    padding: 1rem;
+}
+

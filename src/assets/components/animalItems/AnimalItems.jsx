@@ -1,13 +1,15 @@
+import "./animalItems.css"
+
 const AnimalItems = ({emoji, name, species, habitat, diet, lifespan, funfact1, funfact2, funfact3}) => {
     return (
         <>
-            <div>{emoji}</div>
+            <div className="emoji">{emoji}</div>
             <h2>{name}</h2>
             <h3>{species}</h3>
             <h3>{habitat}</h3>
             <h3>{diet}</h3>
             <p>{lifespan}</p>
-            <div>
+            <div className="funfacts">
                 <ul>
                     <li>{funfact1}</li>
                     <li>{funfact2}</li>
